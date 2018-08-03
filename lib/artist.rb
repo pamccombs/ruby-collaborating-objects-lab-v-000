@@ -31,11 +31,11 @@ class Artist
     
   end
   
-  #def self.all
+  def self.all
      
-    #@@all
+    @@all
     
-  #end
+  end
    def save
     @@all << self
   end
